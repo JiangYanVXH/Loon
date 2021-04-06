@@ -21,10 +21,7 @@ cron "6 8,14,20 6-13 4 *" script-path=https://raw.githubusercontent.com/monk-cod
 cron "32 8 2-18 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_skyworth_car.js,tag=创维408下班全勤
 
 # 京东手机狂欢城
-cron "1 0-18/6 1-20 4 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
-
-# 超级直播间红包雨
-cron "5 0,30,31 20-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js, enable=false, tag=超级直播间红包雨
+cron "5 0 0-18/6 1-20 4 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
 
 # 女装盲盒
 cron "35 1,23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
