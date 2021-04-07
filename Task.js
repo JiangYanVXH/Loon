@@ -93,7 +93,7 @@ cron "50,55 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 cron "28 12,22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_small_home.js, tag=东东小窝
 
 # 天天加速
-cron "18 0-23/3 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed.js,tag=天天加速
+cron "18 0-23/3 1-20 4 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed.js,tag=天天加速
 
 # 东东超市
 cron "44 0-23/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_superMarket.js,tag=东东超市
