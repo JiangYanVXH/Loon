@@ -15,7 +15,7 @@ cron "5 1-23/5 * 3-4 *" script-path=https://raw.githubusercontent.com/monk-coder
 cron "10 10 7-9 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js,tag=京东小魔方
 
 # 母婴跳一跳
-cron "6 8,14,20 6-12 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_mother_jump.js,tag=母婴-跳一跳
+# cron "6 8,14,20 6-12 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_mother_jump.js,tag=母婴-跳一跳
 
 # 创维408下班全勤奖
 cron "32 8 2-18 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_skyworth_car.js,tag=创维408下班全勤
