@@ -8,6 +8,9 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 # 京豆变动通知
 cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, tag=京豆变动通知
 
+# 红包雨
+cron "0,30,31 20-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js, enable=false, tag=红包雨
+
 # 5G超级盲盒
 cron "5 1-23/5 * 3-4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_super5g.js, tag=5G超级盲盒
 
