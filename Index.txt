@@ -1,0 +1,14 @@
+Rule
+https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Rule/ad.list
+https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Rule/Proxy.list
+https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Rule/Direct.list
+https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Rule/Apple.list
+
+Plugin
+https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Plugin/AccelerateRaw.plugin
+https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Plugin/BaiduCloud.plugin
+https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Plugin/Bear.plugin
+https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Plugin/BoxJS.plugin
+https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Plugin/Price.plugin
+https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Plugin/TF-Download.plugin
+https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Plugin/WPS.plugin
