@@ -124,6 +124,9 @@ cron "50 23 * * 1" script-path=https://raw.githubusercontent.com/yangtingxiao/Qu
 # 获取京东互助码
 cron "12 22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_get_share_code.js, enable=false, tag=获取互助码
 
+# 京东物流派件提醒
+cron "6 9 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js , enable=false, tag=京东物流派件提醒
+
 # >机场签到
 # boxjs订阅：https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/evilbutcher.boxjs.json
 cron "25 22 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
