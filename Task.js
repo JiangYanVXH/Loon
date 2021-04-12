@@ -19,10 +19,10 @@ cron "5 1-23/5 * 3-4 *" script-path=https://raw.githubusercontent.com/monk-coder
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js,tag=京东抽奖机
 
 # 京东小魔方
-# cron "10 10 10-12 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js,tag=京东小魔方
+cron "10 10 10-12 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js, enable=false, tag=京东小魔方
 
-# 母婴跳一跳
-# cron "6 8,14,20 6-12 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_mother_jump.js,tag=母婴-跳一跳
+# 母婴跳跳乐
+cron "6 8,14,20 6-12 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_mother_jump.js, enable=false, tag=母婴跳跳乐
 
 # 创维408下班全勤奖
 cron "32 8 2-18 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_skyworth_car.js,tag=创维408下班全勤
