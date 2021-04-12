@@ -22,8 +22,7 @@ cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/Qua
 cron "10 10 10-12 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js, enable=false, tag=京东小魔方
 
 # 母婴跳跳乐
-cron "6 8,14,20 6-12 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_mother_jump.js, enable=false, tag=母婴跳跳乐₁
-cron "6 8,14,20 6-12 4 *" script-path=https://gitee.com/heisedetian/i-chenzhe/blob/main/z_mother_jump.js, enable=false, tag=母婴跳跳乐₂
+# cron "6 8,14,20 6-12 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_mother_jump.js, enable=false, tag=母婴跳跳乐
 
 # 创维408下班全勤奖
 cron "32 8 2-18 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_skyworth_car.js,tag=创维408下班全勤
