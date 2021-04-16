@@ -8,15 +8,16 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 # 京豆变动通知
 cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, tag=京豆变动通知
 
-# 红包雨
-cron "20 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js,tag=整点京豆红包雨
-cron "10 30 20-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js, enable=false, tag=超级直播间红包雨
+# 整点红包雨（20 0 8-23/1 * * *）
+cron "20 0 8,9 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js,tag=整点京豆红包雨
+# 超级直播间
+cron "10 30 20-23/1 16 4 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js, tag=超级直播间红包雨
 
 # 京东直播
-cron "10-20/5 12 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live.js,tag=京东直播
+# cron "10-20/5 12 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live.js,tag=京东直播
 
 # 直播间抽奖
-cron "0,30 * * * *" script-path=https://raw.githubusercontent.com/xbt370/Collection/master/Script/jd_live_lottery_social.js, tag=直播间抽奖
+cron "0,30 * * * *" script-path=https://raw.githubusercontent.com/xbt370/Collection/master/Script/jd_live_lottery_social.js, enable=false, tag=直播间抽奖
 
 # 5G超级盲盒
 cron "5 1-23/5 * 3-4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_super5g.js, tag=5G超级盲盒
