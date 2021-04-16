@@ -116,7 +116,7 @@ cron "44 9-23/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 # cron "1 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js,tag=东东超市兑换奖品
 
 # 赚京豆
-cron "17 8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_syj.js, tag=赚京豆
+cron "17 8,10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_syj.js, tag=赚京豆
 
 # 宠汪汪
 cron "42 1-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js,tag=宠汪汪
