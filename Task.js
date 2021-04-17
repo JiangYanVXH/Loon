@@ -48,8 +48,7 @@ cron "11 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/Qua
 cron "12 7 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_home.js, tag=领京豆额外奖励
 
 # 京东汽车
-cron "10 7 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car.js, tag=京东汽车
-
+# cron "10 7 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car.js, tag=京东汽车
 # 京东汽车兑换
 # cron "0 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js, enable=true, tag=京东汽车兑换
 # cron "59 59 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js, enable=true, tag=京东汽车兑换
