@@ -5,20 +5,6 @@ cron "28 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scrip
 cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,tag=叮咚养鱼
 
 # > 京东APP
-# 京豆变动通知
-cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, tag=京豆变动通知
-
-# 整点红包雨（20 0 8-23/1 * * *）
-cron "20 0 8,9 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js,tag=整点京豆红包雨
-# 超级直播间
-cron "10 30 20-23/1 16 4 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js, tag=超级直播间红包雨
-
-# 京东直播
-# cron "10-20/5 12 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live.js,tag=京东直播
-
-# 直播间抽奖
-cron "0,30 * * * *" script-path=https://raw.githubusercontent.com/xbt370/Collection/master/Script/jd_live_lottery_social.js, enable=false, tag=直播间抽奖
-
 # 5G超级盲盒
 cron "5 1-23/5 * 3-4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_super5g.js, tag=5G超级盲盒
 
@@ -140,6 +126,18 @@ cron "12 22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdreso
 
 # 京东物流派件提醒
 cron "6 9 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js , enable=false, tag=京东物流派件提醒
+
+# 京豆变动通知
+cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, tag=京豆变动通知
+
+# 整点红包雨（20 0 8-23/1 * * *）
+cron "20 0 8,9 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, enable=false, tag=整点京豆红包雨
+# 超级直播间
+cron "10 30 20-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js, enable=false, tag=超级直播间红包雨
+# 京东直播
+# cron "10-20/5 12 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live.js, enable=false, tag=京东直播
+# 直播间抽奖
+cron "0,30 * * * *" script-path=https://raw.githubusercontent.com/xbt370/Collection/master/Script/jd_live_lottery_social.js, enable=false, tag=直播间抽奖
 
 # >机场签到
 # boxjs订阅：https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/evilbutcher.boxjs.json
