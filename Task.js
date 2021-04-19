@@ -57,7 +57,7 @@ cron "12 7 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresou
 cron "38 0-17/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_cash.js,tag=签到领现金
 
 # 摇京豆
-cron "5 2,3 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_club_lottery.js,tag=摇京豆
+cron "5 2,13 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_club_lottery.js,tag=摇京豆
 
 # 东东农场
 cron "36 6-19/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_fruit.js,tag=东东农场
