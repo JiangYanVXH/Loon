@@ -130,7 +130,7 @@ cron "6 9 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/
 cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, enable=false, tag=京豆变动通知
 
 # 整点红包雨（20 0 8-23/1 * * *）
-cron "20 0 * * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, enable=true, tag=整点京豆红包雨
+cron "15 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, enable=true, tag=整点京豆红包雨
 # 超级直播间
 cron "10 30 20-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js, enable=false, tag=超级直播间红包雨
 # 京东直播
