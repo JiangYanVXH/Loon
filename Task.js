@@ -66,7 +66,7 @@ cron "36 6-19/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 cron "22 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jdzz.js,tag=京东赚赚
 
 # 京东快递签到
-cron "24 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_kd.js, tag=京东快递签到
+# cron "24 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_kd.js, tag=京东快递签到
 
 # 秒秒币
 cron "14 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_ms.js,tag=秒秒币
