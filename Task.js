@@ -93,7 +93,7 @@ cron "50,55 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 cron "28 12,22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_small_home.js, tag=东东小窝
 
 # 天天加速
-cron "18 0-23/3 1-20 4 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed.js,tag=天天加速
+# cron "18 0-23/3 1-20 4 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed.js,tag=天天加速
 
 # 东东超市
 cron "44 9-23/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_superMarket.js,tag=东东超市
@@ -130,7 +130,7 @@ cron "6 9 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/
 cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, enable=false, tag=京豆变动通知
 
 # 整点红包雨（20 0 8-23/1 * * *）
-cron "20 0 8,9 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, enable=false, tag=整点京豆红包雨
+cron "20 0 * * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, enable=true, tag=整点京豆红包雨
 # 超级直播间
 cron "10 30 20-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js, enable=false, tag=超级直播间红包雨
 # 京东直播
