@@ -23,6 +23,12 @@ cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/Qua
 # 京东手机狂欢城
 # cron "5 0 0-18/6 1-20 4 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
 
+# 幸运大转盘
+cron "4 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_market_lottery.js,tag=幸运大转盘
+
+# 东东健康社区收集能量
+cron "5-45/30 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health_collect.js, tag=东东健康社区收集能量
+
 # 东东健康社区
 cron "12 0-23/5 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health.js, tag=东东健康社区
 
