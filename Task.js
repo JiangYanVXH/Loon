@@ -27,7 +27,7 @@ cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/Qua
 cron "4 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_market_lottery.js,tag=幸运大转盘
 
 # 东东健康社区收集能量
-cron "5-45/30 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health_collect.js, tag=东东健康社区收集能量
+cron "45 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health_collect.js, tag=东东健康社区收集能量
 
 # 东东健康社区
 cron "12 0-23/5 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health.js, tag=东东健康社区
