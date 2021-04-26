@@ -5,18 +5,11 @@ cron "28 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scrip
 cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,tag=叮咚养鱼
 
 # > 京东APP
-# 5G超级盲盒
-cron "5 1-23/5 * 3-4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_super5g.js, tag=5G超级盲盒
-
 # 京东抽奖机
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js,tag=京东抽奖机
 
 # 京东小魔方
 # cron "10 10 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js, enable=false, tag=京东小魔方
-
-
-# 京东手机狂欢城
-# cron "5 0 0-18/6 1-20 4 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
 
 # 幸运大转盘
 cron "4 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_market_lottery.js,tag=幸运大转盘
@@ -29,12 +22,6 @@ cron "12 */8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdres
 
 # 女装盲盒
 cron "35 1,23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
-
-# 加购有礼
-cron "35 12 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_shop_add_to_car.js,tag=加购有礼
-
-# 关注有礼
-cron "13 15 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/monk_shop_follow_sku.js,tag=关注有礼
 
 # 京东排行榜
 cron "11 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
