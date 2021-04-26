@@ -97,7 +97,7 @@ cron "42 1-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 cron "12 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jx_sign.js,tag=京喜签到
 
 # 取关京东店铺和商品
-cron "50,52 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
+cron "0,5 50 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
 
 # 获取京东互助码
 cron "12 22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_get_share_code.js, enable=false, tag=获取互助码
