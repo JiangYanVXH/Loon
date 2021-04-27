@@ -24,7 +24,7 @@ cron "12 */8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdres
 cron "7 9,13,19 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bookshop.js,tag=口袋书店
 
 # 女装盲盒
-cron "35 1,22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
+cron "28 1,22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
 
 # 京东排行榜
 cron "11 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
