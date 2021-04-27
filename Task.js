@@ -32,12 +32,6 @@ cron "11 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/Qua
 # 领京豆额外奖励
 cron "12 7 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_home.js, tag=领京豆额外奖励
 
-# 京东汽车
-# cron "10 7 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car.js, tag=京东汽车
-# 京东汽车兑换
-#cron "0 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js, enable=true, tag=京东汽车兑换
-#cron "59 59 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js, enable=true, tag=京东汽车兑换
-
 # 签到领现金
 cron "38 0-17/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_cash.js,tag=签到领现金
 
@@ -85,7 +79,7 @@ cron "17 8,10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdre
 cron "42 1-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js,tag=宠汪汪
 
 # 京喜签到
-cron "12 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jx_sign.js,tag=京喜签到
+cron "21 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jx_sign.js,tag=京喜签到
 
 # 取关京东店铺和商品
 cron "0,5 33 22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
