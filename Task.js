@@ -20,6 +20,9 @@ cron "42 */20 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 # 东东健康社区
 cron "12 */8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health.js, tag=东东健康社区
 
+# 口袋书店
+cron "17 8,12,18 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bookshop.js,tag=口袋书店
+
 # 女装盲盒
 cron "35 1,23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
 
