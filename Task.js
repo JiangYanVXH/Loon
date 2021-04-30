@@ -82,7 +82,7 @@ cron "44 9-23/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 
 # 东东超市兑换奖品
 cron "0,1 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js,tag=东东超市兑换奖品
-#cron "58,59 59 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js,tag=东东超市兑换奖品
+cron "58,59 59 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js,tag=东东超市兑换奖品
 
 # 赚京豆
 cron "17 8,10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_syj.js, tag=赚京豆
@@ -108,7 +108,7 @@ cron "6 9 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/
 # 整点红包雨（12 0 8-23/1 * * *）
 cron "15 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, enable=true, tag=整点京豆红包雨
 # 直播间抽奖
-cron "1 30 20 * * *" script-path=https://raw.githubusercontent.com/xbt370/Collection/master/Script/jd_live_lottery_social.js, enable=true, tag=直播间抽奖
+cron "1 30 20 */2 * *" script-path=https://raw.githubusercontent.com/xbt370/Collection/master/Script/jd_live_lottery_social.js, enable=true, tag=直播间抽奖
 # 超级直播间
 cron "10 30 20-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js, enable=false, tag=超级直播间红包雨
 
