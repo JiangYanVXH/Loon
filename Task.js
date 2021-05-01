@@ -96,6 +96,9 @@ cron "42 1-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 # 宠汪汪积分兑换奖品
 cron "5,8 0 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
 
+# 京东摇钱树
+cron "26 1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_moneyTree.js,tag=京东摇钱树
+
 # 京喜签到
 cron "21 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jx_sign.js,tag=京喜签到
 
