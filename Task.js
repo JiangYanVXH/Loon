@@ -5,6 +5,10 @@ cron "28 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scrip
 cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,tag=叮咚养鱼
 
 # > 京东APP
+
+# 超级无线组队分奖品
+cron "25 3 * * 2" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_shop_captain.js,tag=超级无线组队分奖品
+
 # 京东抽奖机
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js,tag=京东抽奖机
 
