@@ -104,7 +104,7 @@ cron "26 1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresou
 cron "21 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jx_sign.js,tag=京喜签到
 
 # 取关京东店铺和商品
-cron "0,5 33 22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
+cron "0,3 33 21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
 
 # 京豆变动通知
 cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, enable=false, tag=京豆变动通知
@@ -124,7 +124,7 @@ cron "10 30 20-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.ne
 
 # >机场签到
 # boxjs订阅：https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/evilbutcher.boxjs.json
-cron "31,32 22 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
+cron "31,32 21 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
 
 # >Boxjs
 # 抹掉全局备份
