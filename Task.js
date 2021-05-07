@@ -7,7 +7,7 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 # > 京东APP
 
 # 每日抽奖
-cron "13 1,22,23 1-31 5 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_daily_lottery.js, tag=每日抽奖
+cron "25 1,22 1-31 5 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_daily_lottery.js, tag=每日抽奖
 
 # 超级无线组队分奖品
 cron "25 3 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_shop_captain.js,tag=超级无线组队分奖品
