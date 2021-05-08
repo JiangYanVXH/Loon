@@ -6,6 +6,9 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 
 # > 京东APP
 
+# 海尔_欢乐大逃亡
+cron "15 8 7-31 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/adolf_haier.js,tag=海尔_欢乐大逃亡
+
 # 每日抽奖
 cron "25 1,22 1-31 5 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_daily_lottery.js, tag=每日抽奖
 
