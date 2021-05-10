@@ -6,6 +6,9 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 
 # > 京东APP
 
+# 刺客_657寻宝
+cron "1 8,12 6-11 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_oppo.js,tag=刺客567之寻宝
+
 # 海尔_欢乐大逃亡
 cron "15 8 7-31 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/adolf_haier.js,tag=海尔_欢乐大逃亡
 
