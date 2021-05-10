@@ -9,6 +9,9 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 # 刺客_657寻宝
 cron "25 8,12 6-11 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_oppo.js,tag=刺客567之寻宝
 
+# 探秘无限星空
+cron "15 8 9-13 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/adolf_ETIP.js,tag=探秘无限星空
+
 # 海尔_欢乐大逃亡
 cron "15 8 7-31 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/adolf_haier.js,tag=海尔_欢乐大逃亡
 
