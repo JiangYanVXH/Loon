@@ -6,20 +6,8 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 
 # > 京东APP
 
-# 刺客_657寻宝
-cron "25 8,12 6-11 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_oppo.js,tag=刺客567之寻宝
-
-# 探秘无限星空
-cron "15 8 9-13 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/adolf_ETIP.js,tag=探秘无限星空
-
-# 海尔_欢乐大逃亡
-cron "15 8 7-31 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/adolf_haier.js,tag=海尔_欢乐大逃亡
-
 # 每日抽奖
 cron "25 1,22 1-31 5 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_daily_lottery.js, tag=每日抽奖
-
-# 超级无线组队分奖品
-cron "25 3 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_shop_captain.js,tag=超级无线组队分奖品
 
 # 京东抽奖机
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js,tag=京东抽奖机
@@ -85,8 +73,7 @@ cron "51 8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresou
 cron "20 8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_sgmh.js, tag=闪购盲盒
 
 # 进店领豆
-cron "7,8,9 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_shop.js,tag=进店领豆
-cron "30,35,40 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_shop.js,tag=进店领豆
+cron "8,10,12 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_shop.js,tag=进店领豆
 
 # 东东小窝
 cron "28 12,22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_small_home.js, tag=东东小窝
@@ -131,7 +118,7 @@ cron "6 9 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/
 # 整点红包雨（12 0 8-23/1 * * *）
 cron "15 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, enable=true, tag=整点京豆红包雨
 # 直播间抽奖
-cron "1 30 20 */2 * *" script-path=https://raw.githubusercontent.com/xbt370/Collection/master/Script/jd_live_lottery_social.js, enable=true, tag=直播间抽奖
+cron "1 30 20 */2 * *" script-path=https://raw.githubusercontent.com/xbt370/Collection/master/Script/jd_live_lottery_social.js, enable=false, tag=直播间抽奖
 # 超级直播间
 cron "10 30 20-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js, enable=false, tag=超级直播间红包雨
 
