@@ -31,16 +31,16 @@ cron "42 */20 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 cron "12 */8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health.js, tag=东东健康社区
 
 # 口袋书店
-cron "7 9,13,19 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bookshop.js,tag=口袋书店
+# cron "7 9,13,19 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bookshop.js,tag=口袋书店
 
 # 京东小魔方
 cron "10 10 * 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js,tag=京东小魔方
 
 # 加购有礼
-cron "35 12 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_shop_add_to_car.js,tag=加购有礼
+# cron "35 12 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_shop_add_to_car.js,tag=加购有礼
 
 # 关注有礼
-cron "13 15 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/monk_shop_follow_sku.js,tag=关注有礼
+# cron "13 15 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/monk_shop_follow_sku.js,tag=关注有礼
 
 # 女装盲盒
 cron "8 1,22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
@@ -121,6 +121,8 @@ cron "12 22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdreso
 # 京东物流派件提醒
 cron "6 9 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js , enable=false, tag=京东物流派件提醒
 
+# 半点红包雨
+cron "15 30 16-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js,tag=半点京豆雨
 # 整点红包雨（12 0 8-23/1 * * *）
 cron "15 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, enable=true, tag=整点京豆红包雨
 # 直播间抽奖
