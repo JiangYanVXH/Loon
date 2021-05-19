@@ -30,17 +30,8 @@ cron "42 */20 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 # 东东健康社区
 cron "12 */8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health.js, tag=东东健康社区
 
-# 口袋书店
-# cron "7 9,13,19 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bookshop.js,tag=口袋书店
-
 # 京东小魔方
 cron "10 10 * 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js,tag=京东小魔方
-
-# 加购有礼
-# cron "35 12 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_shop_add_to_car.js,tag=加购有礼
-
-# 关注有礼
-# cron "13 15 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/monk_shop_follow_sku.js,tag=关注有礼
 
 # 女装盲盒
 cron "8 1,22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
@@ -110,7 +101,7 @@ cron "26 1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresou
 cron "21 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jx_sign.js,tag=京喜签到
 
 # 取关京东店铺和商品
-cron "0,3 33 21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
+cron "33 12,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
 
 # 京豆变动通知
 cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, enable=false, tag=京豆变动通知
