@@ -6,6 +6,9 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 
 # > 京东APP
 
+# 人头马x博朗
+cron "20 9 20-31 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_martin.js,tag=人头马x博朗
+
 # 每日抽奖
 # cron "25 1,22 1-31 5 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_daily_lottery.js, tag=每日抽奖
 
