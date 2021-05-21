@@ -19,7 +19,7 @@ cron "23 9 21-27 5 *" script-path=https://raw.githubusercontent.com/monk-coder/d
 cron "5 8,14,20 11-17 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_mother_jump.js,tag=母婴-跳一跳
 
 # 跳跳乐瓜分京豆
-cron "1 0,11,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jump.js, tag=跳跳乐瓜分京豆
+cron "3 0,11,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jump.js, tag=跳跳乐瓜分京豆
 
 # 京东抽奖机
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js,tag=京东抽奖机
