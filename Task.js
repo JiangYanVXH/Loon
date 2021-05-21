@@ -129,7 +129,7 @@ cron "10 30 20-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.ne
 
 # >机场签到
 # boxjs订阅：https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/evilbutcher.boxjs.json
-cron "31,32 21 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
+cron "32 21 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
 
 # >Boxjs
 # 抹掉全局备份
