@@ -16,7 +16,7 @@ cron "20 9 20-31 5 *" script-path=https://raw.githubusercontent.com/monk-coder/d
 cron "23 9 21-27 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_mi.js,tag=Redmi合成小金刚
 
 # 母婴跳一跳
-cron "5 8,14,20 11-17 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_mother_jump.js,tag=母婴-跳一跳
+# cron "5 8,14,20 11-17 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_mother_jump.js,tag=母婴-跳一跳
 
 # 跳跳乐瓜分京豆
 cron "3 0,11,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jump.js, tag=跳跳乐瓜分京豆
@@ -43,7 +43,7 @@ cron "10 10 * 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust
 cron "8 1,22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
 
 # 京东排行榜
-cron "11 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
+# cron "11 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
 
 # 领京豆额外奖励
 cron "12 7 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_home.js, tag=领京豆额外奖励
