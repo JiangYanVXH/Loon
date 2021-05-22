@@ -1,6 +1,5 @@
 [MITM]
-hostname = api.m.jd.com
-#trade-acs.m.taobao.com
+hostname = api.m.jd.com, trade-acs.m.taobao.com
 
 [Script]
 
@@ -12,5 +11,5 @@ http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness
 
 # 淘宝比价
 #历史价格在“保障”中显示，需要点击“保障”才能看到，和京东不一样
-#^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
-#^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
