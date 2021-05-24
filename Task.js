@@ -13,9 +13,7 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 cron "5 0 0-18/6 * * *" script-path= https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_carnivalcity.js, tag=京东手机狂欢城
 cron "5 0 0-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
 
-# 城城分现金
-
-# 城城分现金
+# 城城分现金（5.24-6.5）
 cron "45 0-23/4 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_city_cash.js, tag=城城分现金
 cron "45 0-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_city.js,tag=城城领现金
 
