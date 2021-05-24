@@ -141,6 +141,9 @@ cron "10 30 20-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.ne
 # boxjs订阅：https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/evilbutcher.boxjs.json
 cron "32 21 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
 
+# 事业单位招聘监控
+cron "52 1-21/2 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/wechatsubs/sydwzp.js, tag=事业单位招聘监控
+
 # >Boxjs
 # 抹掉全局备份
 cron "12 22 * * *" script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Delete_All.js, enable=false, tag=抹掉 Boxjs 全局备份
