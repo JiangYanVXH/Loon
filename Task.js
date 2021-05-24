@@ -10,12 +10,12 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 # cron "25 1,22 1-31 5 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_daily_lottery.js, tag=每日抽奖
 
 # 手机狂欢城（5.14-6.20）
-cron "5 0 0-18/6 * * *" script-path= https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_carnivalcity.js, tag=京东手机狂欢城
-cron "5 0 0-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
+cron "1 0 0-18/6 * * *" script-path= https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_carnivalcity.js, tag=京东手机狂欢城
+cron "1 0 0-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
 
 # 城城分现金（5.24-6.5）
-cron "45 0-23/4 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_city_cash.js, tag=城城分现金
-cron "45 0-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_city.js,tag=城城领现金
+cron "50 1-23/4 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_city_cash.js, tag=城城分现金
+cron "50 1-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_city.js,tag=城城领现金
 
 # Redmi合成小金刚
 cron "23 9 21-27 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_mi.js,tag=Redmi合成小金刚
@@ -86,7 +86,7 @@ cron "51 8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresou
 cron "20 8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_sgmh.js, tag=闪购盲盒
 
 # 进店领豆
-cron "8,10,12 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_shop.js,tag=进店领豆
+cron "7,9,11 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_shop.js,tag=进店领豆
 
 # 东东小窝
 cron "28 12,22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_small_home.js, tag=东东小窝
@@ -108,7 +108,7 @@ cron "17 8,10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdre
 cron "42 1-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js,tag=宠汪汪
 
 # 宠汪汪积分兑换奖品
-cron "10,12 0 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
+cron "3,5 0 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
 
 # 京东摇钱树
 cron "26 1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_moneyTree.js,tag=京东摇钱树
