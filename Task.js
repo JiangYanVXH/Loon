@@ -9,6 +9,9 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 # 每日抽奖
 # cron "25 1,22 1-31 5 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_daily_lottery.js, tag=每日抽奖
 
+# 坐等更新
+cron "28 11 18-26 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_urge.js,tag=坐等更新
+
 # 手机狂欢城（5.14-6.20）
 cron "1 0 0-18/6 * * *" script-path= https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_carnivalcity.js, tag=京东手机狂欢城
 cron "1 0 0-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
