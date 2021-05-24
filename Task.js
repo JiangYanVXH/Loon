@@ -142,7 +142,7 @@ cron "10 30 20-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.ne
 cron "32 21 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
 
 # 事业单位招聘监控
-cron "52 1-21/2 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/wechatsubs/sydwzp.js, tag=事业单位招聘监控
+cron "52 */6 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/wechatsubs/sydwzp.js, tag=事业单位招聘监控
 
 # >Boxjs
 # 抹掉全局备份
