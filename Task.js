@@ -15,8 +15,10 @@ cron "5 0 0-18/6 1-20 6 *" script-path= https://raw.githubusercontent.com/monk-c
 #cron "5 0 0-18/6 * 5 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
 
 # 城城分现金
-cron "0 0-23/1 * 5 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_city.js,tag=城城领现金
-cron "0 0-23/1 1-3 6 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_city.js,tag=城城领现金
+#cron "45 0-23/1 * 5 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_city.js,tag=城城领现金
+#cron "45 0-23/1 1-3 6 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_city.js,tag=城城领现金
+cron "45 0-23/1 * 5 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_city_cash.js, tag=城城分现金
+cron "45 0-23/1 1-3 6 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_city_cash.js, tag=城城分现金
 
 # Redmi合成小金刚
 cron "23 9 21-27 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_mi.js,tag=Redmi合成小金刚
