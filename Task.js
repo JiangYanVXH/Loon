@@ -6,6 +6,9 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 
 # > 京东APP
 
+# 动物联萌
+cron "58 * * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js,tag=动物联萌
+
 # 每日抽奖
 # cron "25 1,22 1-31 5 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_daily_lottery.js, tag=每日抽奖
 
@@ -28,9 +31,8 @@ cron "15 8,13,19 17-31 5 *" script-path=https://raw.githubusercontent.com/monk-c
 
 # 母婴跳一跳
 # cron "5 8,14,20 11-17 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_mother_jump.js,tag=母婴-跳一跳
-
 # 跳跳乐瓜分京豆
-cron "3 0,11,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jump.js, tag=跳跳乐瓜分京豆
+#cron "3 0,11,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jump.js, tag=跳跳乐瓜分京豆
 
 # 京东抽奖机
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js,tag=京东抽奖机
@@ -39,7 +41,7 @@ cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/Qua
 # cron "10 10 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js, enable=false, tag=京东小魔方
 
 # 幸运大转盘
-cron "4 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_market_lottery.js,tag=幸运大转盘
+#cron "4 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_market_lottery.js,tag=幸运大转盘
 
 # 东东健康社区收集能量
 cron "42 */20 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health_collect.js, tag=东东健康社区收集能量
@@ -48,10 +50,10 @@ cron "42 */20 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 cron "12 */8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health.js, tag=东东健康社区
 
 # 京东小魔方
-cron "10 10 * 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js,tag=京东小魔方
+#cron "10 10 * 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js,tag=京东小魔方
 
 # 女装盲盒
-cron "8 1,22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
+#cron "8 1,22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
 
 # 京东排行榜
 # cron "11 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
