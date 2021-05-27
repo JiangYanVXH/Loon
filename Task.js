@@ -7,7 +7,7 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 # > 京东APP
 
 # 星推官
-# cron "32 10-20/3 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_star.js,tag=家电星推官
+cron "32 10-20/3 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_star.js,tag=家电星推官
 cron "8 0,10,20 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_xtg.js,tag=家电星推官
 
 # 618大势新品赏
