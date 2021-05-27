@@ -8,7 +8,7 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 
 # 星推官
 cron "32 10-20/3 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_star.js,tag=家电星推官
-cron "8 0,10,20 * * *" script-path= https://jdsharedresourcescdn.azureedge.net/jdresource/jd_xtg.js,tag=家电星推官
+cron "0 0 0 * * *" script-path= https://jdsharedresourcescdn.azureedge.net/jdresource/jd_xtg.js,tag=家电星推官
 
 # 618大势新品赏
 cron "25 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_newInteraction.js,tag=618大势新品赏
