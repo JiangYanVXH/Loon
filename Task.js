@@ -66,7 +66,8 @@ cron "12 */8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdres
 # 京东排行榜
 # cron "11 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
 # 金榜创造营
-cron "11 9 * 5-12 *" script-path=https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js,tag=金榜创造营
+cron "11 9 * * *" script-path=https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js,tag=金榜创造营
+#cron "11 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_gold_creator.js, tag=金榜创造营
 
 # 领京豆额外奖励
 cron "12 7 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_home.js, tag=领京豆额外奖励
