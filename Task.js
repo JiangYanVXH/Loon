@@ -28,7 +28,7 @@ cron "25 1,22 1-31 5 *" script-path=https://ghproxy.com/https://raw.githubuserco
 
 # 手机狂欢城（5.14-6.20）
 #cron "1 0 0-18/6 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_carnivalcity.js, tag=京东手机狂欢城
-cron "1 0 0-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
+cron "1 0 0-18/6 1-20 6 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
 
 # 城城分现金（5.24-6.5）
 #cron "50 1-23/4 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_city_cash.js, tag=城城分现金
