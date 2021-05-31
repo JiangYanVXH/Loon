@@ -32,7 +32,7 @@ cron "1 0 0-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/j
 
 # 城城分现金（5.24-6.5）
 #cron "50 1-23/4 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_city_cash.js, tag=城城分现金
-cron "50 0-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_city.js,tag=城城领现金
+cron "50 0-23/1 1-3 6 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_city.js,tag=城城领现金
 
 # Redmi合成小金刚
 #cron "23 9 21-27 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_mi.js,tag=Redmi合成小金刚
