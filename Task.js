@@ -11,7 +11,7 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 cron "20 0,1 * * *" script-path= https://jdsharedresourcescdn.azureedge.net/jdresource/jd_xtg.js,tag=家电星推官
 
 # 618大势新品赏
-cron "25 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_newInteraction.js,tag=618大势新品赏
+#cron "25 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_newInteraction.js,tag=618大势新品赏
 
 # 京东超级盒子
 cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_superbox.js,tag=京东超级盒子
@@ -19,6 +19,9 @@ cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/
 # 动物联萌
 #cron "58 9-23/2 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js,tag=动物联萌
 cron "58 6-23/2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_zoo.js, tag=动物联萌
+
+# 618沸腾之夜
+cron "25 1,22 1-31 5 *" script-path=https://ghproxy.com/https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jd_party_night.js, tag=618沸腾之夜
 
 # 每日抽奖
 # cron "25 1,22 1-31 5 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_daily_lottery.js, tag=每日抽奖
@@ -35,7 +38,7 @@ cron "50 0-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 #cron "23 9 21-27 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_mi.js,tag=Redmi合成小金刚
 
 # 京享值PK
-#cron "15 8,13,19 17-31 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_pk.js,tag=京享值PK
+cron "15 8,13,19 17-31 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_pk.js,tag=京享值PK
 
 # 母婴跳一跳
 # cron "5 8,14,20 11-17 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_mother_jump.js,tag=母婴-跳一跳
