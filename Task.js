@@ -14,7 +14,7 @@ cron "20 0,1 1-18 6 *" script-path= https://jdsharedresourcescdn.azureedge.net/j
 #cron "25 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_newInteraction.js,tag=618大势新品赏
 
 # 京东超级盒子
-cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_superbox.js,tag=京东超级盒子
+#cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_superbox.js,tag=京东超级盒子
 
 # 动物联萌
 #cron "58 9-23/2 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js,tag=动物联萌
