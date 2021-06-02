@@ -10,9 +10,6 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 #cron "32 10-19/3 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_star.js,tag=家电星推官
 cron "30 0,1,10 1-18 6 *" script-path=https://ghproxy.com/https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/babelDiy.js,tag=总裁送好礼
 
-# 总裁送好礼
-cron "31 9,10 1-18 6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_newInteraction.js,tag=618大势新品赏
-
 # 京东超级盒子
 cron "15 9,20 1-18 6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_superbox.js,tag=京东超级盒子
 
@@ -27,9 +24,6 @@ cron "1 0 0-18/6 1-20 6 *" script-path=https://jdsharedresourcescdn.azureedge.ne
 # 城城分现金（5.24-6.5）
 #cron "50 1-23/4 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_city_cash.js, tag=城城分现金
 cron "50 0-23/1 1-3 6 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_city.js,tag=城城领现金
-
-# 京享值PK
-cron "15 8,13,19 6-18 6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_pk.js,tag=京享值PK
 
 # 京东抽奖机
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js,tag=京东抽奖机
