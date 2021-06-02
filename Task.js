@@ -8,23 +8,17 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 
 # 星推官
 #cron "32 10-19/3 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_star.js,tag=家电星推官
-cron "20 0,1 1-18 6 *" script-path= https://jdsharedresourcescdn.azureedge.net/jdresource/jd_xtg.js,tag=家电星推官
+cron "30 0,1,10 1-18 6 *" script-path=https://ghproxy.com/https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/babelDiy.js,tag=总裁送好礼
 
-# 618大势新品赏
-#cron "25 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_newInteraction.js,tag=618大势新品赏
+# 总裁送好礼
+cron "31 9,10 1-18 6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_newInteraction.js,tag=618大势新品赏
 
 # 京东超级盒子
-#cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_superbox.js,tag=京东超级盒子
+cron "15 9,20 1-18 6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_superbox.js,tag=京东超级盒子
 
 # 动物联萌
 #cron "58 9-23/2 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js,tag=动物联萌
 cron "58 6-23/2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_zoo.js, tag=动物联萌
-
-# 618沸腾之夜
-cron "25 1,22 1-31 5 *" script-path=https://ghproxy.com/https://raw.githubusercontent.com/sngxpro/QuanX/master/scripts/jd_party_night.js, tag=618沸腾之夜
-
-# 每日抽奖
-# cron "25 1,22 1-31 5 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_daily_lottery.js, tag=每日抽奖
 
 # 手机狂欢城（5.14-6.20）
 #cron "1 0 0-18/6 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_carnivalcity.js, tag=京东手机狂欢城
@@ -34,25 +28,11 @@ cron "1 0 0-18/6 1-20 6 *" script-path=https://jdsharedresourcescdn.azureedge.ne
 #cron "50 1-23/4 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_city_cash.js, tag=城城分现金
 cron "50 0-23/1 1-3 6 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_city.js,tag=城城领现金
 
-# Redmi合成小金刚
-#cron "23 9 21-27 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_mi.js,tag=Redmi合成小金刚
-
 # 京享值PK
-cron "15 8,13,19 17-31 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_pk.js,tag=京享值PK
-
-# 母婴跳一跳
-# cron "5 8,14,20 11-17 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_mother_jump.js,tag=母婴-跳一跳
-# 跳跳乐瓜分京豆
-#cron "3 0,11,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jump.js, tag=跳跳乐瓜分京豆
+cron "15 8,13,19 6-18 6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_pk.js,tag=京享值PK
 
 # 京东抽奖机
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js,tag=京东抽奖机
-
-# 京东小魔方
-# cron "10 10 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js, enable=false, tag=京东小魔方
-
-# 幸运大转盘
-#cron "4 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_market_lottery.js,tag=幸运大转盘
 
 # 东东健康社区收集能量
 cron "42 */20 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health_collect.js, tag=东东健康社区收集能量
@@ -69,8 +49,8 @@ cron "12 */8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdres
 # 京东排行榜
 # cron "11 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
 # 金榜创造营
-cron "11 9 * * *" script-path=https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js,tag=金榜创造营
-#cron "11 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_gold_creator.js, tag=金榜创造营
+#cron "11 9 * * *" script-path=https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js,tag=金榜创造营
+cron "11 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_gold_creator.js, tag=金榜创造营
 
 # 领京豆额外奖励
 cron "12 7 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_home.js, tag=领京豆额外奖励
