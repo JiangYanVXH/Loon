@@ -18,7 +18,7 @@ cron "15 9,20 1-18 6 *" script-path=https://raw.githubusercontent.com/monk-coder
 
 # 动物联萌
 #cron "58 9-23/2 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js,tag=动物联萌
-cron "58 6-23/2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_zoo.js, tag=动物联萌
+cron "58 6-23/2 1-20 6 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_zoo.js, tag=动物联萌
 
 # 手机狂欢城（5.14-6.20）
 #cron "1 0 0-18/6 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_carnivalcity.js, tag=京东手机狂欢城
