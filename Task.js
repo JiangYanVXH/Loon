@@ -104,7 +104,7 @@ cron "28 1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresou
 cron "17 8,10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_syj.js, tag=赚京豆
 
 # 宠汪汪
-cron "42 1-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js,tag=宠汪汪
+cron "42 1-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js, enable=false, tag=宠汪汪
 
 # 宠汪汪积分兑换奖品
 cron "3,5 0 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
