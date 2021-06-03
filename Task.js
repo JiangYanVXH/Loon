@@ -6,6 +6,9 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 
 # > 京东APP
 
+# 5G超级盲盒
+cron "45 0-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_mohe.js,tag=5G超级盲盒
+
 # 星推官
 #cron "32 10-19/3 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_star.js,tag=家电星推官
 cron "30 0,1,10 1-18 6 *" script-path=https://ghproxy.com/https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/babelDiy.js,tag=总裁送好礼
