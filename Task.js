@@ -6,7 +6,7 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 
 # > 京东APP
 
-# 5G超级盲盒
+# 5G超级盲盒（7.31）
 cron "45 0-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_mohe.js,tag=5G超级盲盒
 
 # 星推官
