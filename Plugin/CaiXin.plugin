@@ -1,0 +1,5 @@
+[Script]
+http-response https://mappsv5.caixin.com/articlev5/* requires-body=1,script-path=caixin.js,tag=财新
+
+[MITM]
+*.caixin.com
