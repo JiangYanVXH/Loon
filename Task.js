@@ -19,6 +19,9 @@ cron "45 0-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 #cron "32 10-19/3 * 5,6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_star.js,tag=家电星推官
 cron "30 0,1,10 1-18 6 *" script-path=https://ghproxy.com/https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/babelDiy.js,tag=总裁送好礼
 
+# 京享值PK
+cron "35 0,6,13,19,21 * * *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js,tag=京享值PK
+
 # 京东超级盒子
 cron "15 9,20 1-18 6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_superbox.js,tag=京东超级盒子
 
