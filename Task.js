@@ -13,7 +13,7 @@ cron "28 7,9 1-18 6 *" script-path=https://raw.githubusercontent.com/Wenmoux/scr
 cron "10 2,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_star_shop.js,tag=明星小店
 
 # 新潮品牌狂欢
-cron "4 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_mcxhd.js, tag=新潮品牌狂欢
+cron "4 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_mcxhd.js, enable=false, tag=新潮品牌狂欢
 
 # 5G超级盲盒（7.31）
 cron "45 0-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_mohe.js,tag=5G超级盲盒
@@ -26,11 +26,11 @@ cron "30 0,1,10 1-18 6 *" script-path=https://ghproxy.com/https://raw.githubuser
 cron "35 6,13,19,21 * * *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js,tag=京享值PK
 
 # 京东超级盒子
-cron "15 9,20 1-18 6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_superbox.js,tag=京东超级盒子
+cron "15 9,20 1-18 6 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_superbox.js, enable=false, tag=京东超级盒子
 
 # 动物联萌
 #cron "58 9-23/2 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js,tag=动物联萌
-cron "58 6-23/2 1-20 6 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_zoo.js, tag=动物联萌
+cron "58 6-23/2 1-20 6 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_zoo.js, enable=false, tag=动物联萌
 cron "58 6-23/2 1-20 6 *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js, tag=动物联萌
 
 
@@ -52,13 +52,13 @@ cron "42 */20 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 cron "12 */8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health.js, tag=东东健康社区
 
 # 京东小魔方
-#cron "10 10 * 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js,tag=京东小魔方
+# cron "10 10 * 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js,tag=京东小魔方
 
 # 女装盲盒
 #cron "8 1,22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
 
 # 京东排行榜
-# cron "11 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
+#cron "11 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
 # 金榜创造营
 #cron "11 9 * * *" script-path=https://raw.githubusercontent.com/qqsdff/script/main/jd/jd_jbczy.js,tag=金榜创造营
 cron "11 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_gold_creator.js, tag=金榜创造营
@@ -88,7 +88,7 @@ cron "15 6-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 cron "1 7-21/2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_plantBean.js,tag=种豆得豆
 
 # 全民开红包
-cron "51 8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_redPacket.js, tag=全民开红包
+cron "51 8,9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_redPacket.js, tag=全民开红包
 
 # 闪购盲盒
 cron "20 8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_sgmh.js, tag=闪购盲盒
@@ -103,8 +103,8 @@ cron "28 12,22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdr
 cron "44 9-23/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_superMarket.js,tag=东东超市
 
 # 东东超市兑换奖品
-# cron "0,1 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js,tag=东东超市兑换奖品
-# cron "58,59 59 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js,tag=东东超市兑换奖品
+cron "0,1 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js, enable=false, tag=东东超市兑换奖品
+cron "58,59 59 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js, enable=false, tag=东东超市兑换奖品
 
 # 领金贴
 cron "28 1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jin_tie.js,tag=领金贴
@@ -116,7 +116,7 @@ cron "17 8,10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdre
 cron "42 1-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js, enable=false, tag=宠汪汪
 
 # 宠汪汪积分兑换奖品
-cron "3,5 0 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
+cron "3,5 0 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js, enable=false, tag=宠汪汪积分兑换奖品
 
 # 京东摇钱树
 cron "26 1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_moneyTree.js,tag=京东摇钱树
@@ -137,9 +137,9 @@ cron "12 22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdreso
 cron "6 9 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js , enable=false, tag=京东物流派件提醒
 
 # 半点京豆雨
-cron "8 30 16-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js,tag=半点京豆雨
+cron "8 30 16-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js, enable=false, tag=半点京豆雨
 # 整点京豆雨（12 0 8-23/1 * * *）
-cron "8 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, enable=true, tag=整点京豆雨
+cron "8 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, enable=false, tag=整点京豆雨
 # 直播间抽奖
 cron "1 30 20 */2 * *" script-path=https://raw.githubusercontent.com/xbt370/Collection/master/Script/jd_live_lottery_social.js, enable=false, tag=直播间抽奖
 # 超级直播间
@@ -150,7 +150,7 @@ cron "10 30 20-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.ne
 cron "32 21 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
 
 # 事业单位招聘监控
-cron "52 */6 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/wechatsubs/sydwzp.js, tag=事业单位招聘监控
+cron "52 */6 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/wechatsubs/sydwzp.js, enable=false, tag=事业单位招聘监控
 
 # >Boxjs
 # 抹掉全局备份
