@@ -7,7 +7,7 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 # > 京东APP
 
 # 618限时盲盒 
-cron "28 7,9 1-18 6 *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_limitBox.js, tag=618限时盲盒
+#cron "28 7,9 1-18 6 *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/master/jd/jd_limitBox.js, tag=618限时盲盒
 
 # 明星小店
 cron "10 2,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_star_shop.js,tag=明星小店
