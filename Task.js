@@ -13,7 +13,7 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 cron "10 2,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_star_shop.js,tag=明星小店
 
 # 新潮品牌狂欢
-cron "4 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_mcxhd.js tag=新潮品牌狂欢
+cron "4 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_mcxhd.js, tag=新潮品牌狂欢
 
 # 5G超级盲盒（7.31）
 cron "45 0-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_mohe.js,tag=5G超级盲盒
