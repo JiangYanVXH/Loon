@@ -12,6 +12,9 @@ cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script
 # 明星小店
 cron "10 2,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_star_shop.js,tag=明星小店
 
+# 618竞猜
+cron "8 1 * * *" script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/zy_618jc.js,tag=618竞猜
+
 # 新潮品牌狂欢
 cron "4 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_mcxhd.js, tag=新潮品牌狂欢
 
