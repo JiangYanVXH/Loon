@@ -144,9 +144,12 @@ cron "12 22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdreso
 cron "6 9 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js , enable=false, tag=京东物流派件提醒
 
 # 半点京豆雨
-cron "8 30 16-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js, enable=false, tag=半点京豆雨
+#cron "8 30 16-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js, enable=false, tag=半点京豆雨
+cron "8 30 16-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_half_redrain.js, enable=false, tag=半点京豆雨
 # 整点京豆雨（12 0 8-23/1 * * *）
-cron "8 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, enable=false, tag=整点京豆雨
+#cron "8 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, enable=false, tag=整点京豆雨
+cron "8 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_super_redrain.js, enable=false, tag=整点京豆雨
+
 # 直播间抽奖
 cron "1 30 20 */2 * *" script-path=https://raw.githubusercontent.com/xbt370/Collection/master/Script/jd_live_lottery_social.js, enable=false, tag=直播间抽奖
 # 超级直播间
