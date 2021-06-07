@@ -149,6 +149,8 @@ cron "8 30 16-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuz
 # 整点京豆雨（12 0 8-23/1 * * *）
 #cron "8 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, enable=false, tag=整点京豆雨
 cron "8 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_super_redrain.js, enable=false, tag=整点京豆雨
+# 618主会场红包雨
+cron "1 20 1-18 6 *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_hby_lottery.js, enable=false, tag=主会场红包雨
 
 # 直播间抽奖
 cron "1 30 20 */2 * *" script-path=https://raw.githubusercontent.com/xbt370/Collection/master/Script/jd_live_lottery_social.js, enable=false, tag=直播间抽奖
