@@ -126,7 +126,7 @@ cron "42 1-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 
 # 宠汪汪积分兑换奖品
 cron "3,5 0 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js, enable=false, tag=宠汪汪积分兑换奖品
-cron "3,5 0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_joy_reward.js, enable=false, tag=宠汪汪积分兑换奖品
+cron "3,5 0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/backup/ddo_joy_reward.js, enable=false, tag=宠汪汪积分兑换奖品
 
 # 京东摇钱树
 cron "26 1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_moneyTree.js,tag=京东摇钱树
