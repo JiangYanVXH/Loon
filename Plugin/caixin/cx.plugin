@@ -1,5 +1,5 @@
 [Script]
-http-response https://mappsv5.caixin.com/articlev5/* requires-body=1,script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Plugin/cx.js,tag=财新
+http-response https://mappsv5.caixin.com/articlev5/* requires-body=1,script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Plugin/caixin/cx.js,tag=财新
 
 [MITM]
 hostname = *.caixin.com
