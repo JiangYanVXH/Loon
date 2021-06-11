@@ -32,9 +32,9 @@ cron "15 9,20 1-18 6 *" script-path=https://raw.githubusercontent.com/monk-coder
 
 # 动物联萌
 #cron "58 9-23/2 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js,tag=动物联萌
-cron "58 6-23/2 1-20 6 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_zoo.js, enable=false, tag=动物联萌
-cron "58 6-23/2 1-20 6 *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/zoo.js, enable=false, tag=动物联萌
-cron "58 6-23/2 1-20 6 *" script-path= https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/zoo.js,tag=动物联萌
+#cron "58 6-23/2 1-20 6 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_zoo.js, tag=动物联萌
+cron "58 6-23/2 1-20 6 *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js,tag=动物联萌
+
 # 动物联萌收金币
 cron "44 0-59/30 * 1-20 6 *" script-path= https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/zooCollect.js,tag=动物联萌收集金币
 
