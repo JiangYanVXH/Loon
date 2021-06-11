@@ -1,3 +1,6 @@
+# 京东抽奖机
+cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js,tag=京东抽奖机
+
 # 宠汪汪积分兑换奖品
 cron "3,5 0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/backup/ddo_joy_reward.js, enable=false, tag=宠汪汪积分兑换奖品
 
