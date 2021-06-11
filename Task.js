@@ -1,3 +1,6 @@
+# 京享值PK
+cron "35 6,13,19,21 * * *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js, tag=京享值PK
+
 # 京东抽奖机
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js,tag=京东抽奖机
 
