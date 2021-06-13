@@ -21,7 +21,7 @@ cron "38 0-17/6 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorl
 cron "12 7 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_bean_home.js, tag=领京豆额外奖励（通用版）
 cron "11 9 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_gold_creator.js, tag=金榜创造营（通用版）
 cron "12 */8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_health.js, tag=东东健康社区（通用版）
-cron "42 * 1-23/1 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_health_collect.js, tag=东东健康社区收集能量（通用版）
+cron "42 10 1-23/1 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_health_collect.js, tag=东东健康社区收集能量（通用版）
 cron "42 1-23/4 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_joy.js, tag=宠汪汪（通用版）
 cron "33 12,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_unsubscribe.js, tag=取关京东店铺商品
 cron "12 22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_get_share_code.js, enabled=false, tag=获取京东互助码
@@ -34,7 +34,7 @@ cron "3,5 0 0-16/8 * * *" script-path= https://raw.githubusercontent.com/hyzaw/s
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机
 cron "58 6-23/2 1-18 6 *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js, tag=动物联萌
 cron "22 12 1-18 6 *" script-path=https://raw.githubusercontent.com/star261/jd/main/scripts/jd_zooMap.js, tag=动物联萌店铺任务
-cron "45 0-59/30 * * * *" script-path=https://raw.githubusercontent.com/star261/jd/main/scripts/jd_zooCollect.js, tag=动物联萌收集金币
+cron "45 10 1-23/1 * * *" script-path=https://raw.githubusercontent.com/star261/jd/main/scripts/jd_zooCollect.js, tag=动物联萌收集金币
 
 cron "8 1 1-18 6 *" script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/zy_618jc.js, tag=618竞猜
 cron "8 30 16-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_half_redrain.js, enable=false, tag=半点京豆雨
