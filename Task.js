@@ -26,6 +26,7 @@ cron "42 1-23/4 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorl
 cron "33 12,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_unsubscribe.js, tag=取关京东店铺商品
 cron "12 22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_get_share_code.js, enabled=false, tag=获取京东互助码
 
+# >其他
 cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/adolf_superbox.js, tag=京东超级盒子（不更新）
 cron "32 10-19/3 1-18 6 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/adolf_star.js, tag=家电星推官（不更新）
 cron "35 6,13,19,21 1-20 6 *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js, tag=京享值PK
