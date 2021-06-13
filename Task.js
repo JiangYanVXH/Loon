@@ -53,7 +53,6 @@ cron "12 7 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon
 cron "11 9 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/jd_gold_creator.js, tag=金榜创造营
 cron "12 */8 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/jd_health.js, tag=东东健康社区
 cron "42 */20 * * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/jd_health_collect.js, tag=东东健康社区收集能量
-cron "42 1-23/4 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/jd_joy.js, tag=宠汪汪
 cron "3,5 0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/ddo_joy_reward.js, tag=宠汪汪积分兑换奖品
 
 # ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
