@@ -1,3 +1,36 @@
+cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/adolf_superbox.js, tag=京东超级盒子
+cron "32 10-19/3 1-18 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/adolf_star.js, tag=家电星推官
+cron "58 6-23/2 1-20 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_zoo.js, enabled=false, tag=动物联萌
+cron "1 0 0-18/6 1-20 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_carnivalcity.js, tag=手机狂欢城
+cron "4 10 1-18 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_mcxhd.js, tag=新潮品牌狂欢
+cron "45 0-23/4 * 6,7 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_mohe.js, tag=5G超级盲盒
+cron "10 2,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_star_shop.js, tag=明星小店
+cron "17 8,10 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_syj.js, tag=赚京豆
+cron "28 1 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_jin_tie.js, tag=领金贴
+cron "44 9-23/8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_superMarket.js, tag=东东超市
+cron "28 12,22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_small_home.js, tag=东东小窝
+cron "12,15,20 0 0 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_shop.js, tag=进店领豆
+cron "20 8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_sgmh.js, tag=闪购盲盒
+cron "1 7-21/2 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_plantBean.js, tag=种豆得豆
+cron "15 6-18/6 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_pet.js, tag=东东萌宠
+cron "22 0 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_jdzz.js, tag=京东赚赚
+cron "26 1 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_moneyTree.js, tag=京东摇钱树
+cron "51 8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_redPacket.js, tag=全民开红包
+cron "14 10 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_ms.js, tag=秒秒币
+cron "36 6-19/6 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_fruit.js, tag=东东农场
+cron "6 3,13 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_club_lottery.js, tag=摇京豆
+cron "38 0-17/6 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_cash.js, tag=签到领现金
+cron "12 7 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_bean_home.js, tag=领京豆额外奖励
+cron "11 9 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_gold_creator.js, tag=金榜创造营
+cron "12 */8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_health.js, tag=东东健康社区
+cron "42 */20 * * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_health_collect.js, tag=东东健康社区收集能量
+cron "42 1-23/4 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_joy.js, tag=宠汪汪
+cron "3,5 0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/ddo_joy_reward.js, tag=宠汪汪积分兑换奖品
+cron "33 12,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_unsubscribe.js, tag=取关京东店铺商品
+cron "12 22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_get_share_code.js, enabled=false, tag=获取京东互助码
+
+#┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+
 cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/adolf_superbox.js, tag=京东超级盒子
 cron "32 10-19/3 1-18 6 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/adolf_star.js, tag=家电星推官
 cron "58 6-23/2 1-20 6 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/jd_zoo.js, enabled=false, tag=动物联萌
