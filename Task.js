@@ -21,6 +21,7 @@ cron "38 0-17/6 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorl
 cron "12 7 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_bean_home.js, tag=领京豆额外奖励（通用版）
 cron "11 9 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_gold_creator.js, tag=金榜创造营（通用版）
 cron "12 */8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_health.js, tag=东东健康社区（通用版）
+cron "12 */8 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/jd_health.js, enable=false, tag=东东健康社区（原版）
 cron "42 */20 * * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_health_collect.js, tag=东东健康社区收集能量（通用版）
 cron "42 1-23/4 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_joy.js, tag=宠汪汪（通用版）
 cron "33 12,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_unsubscribe.js, tag=取关京东店铺商品
@@ -51,8 +52,6 @@ cron "6 3,13 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Lo
 cron "38 0-17/6 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/jd_cash.js, tag=签到领现金
 cron "12 7 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/jd_bean_home.js, tag=领京豆额外奖励
 cron "11 9 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/jd_gold_creator.js, tag=金榜创造营
-cron "12 */8 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/jd_health.js, tag=东东健康社区
-cron "42 */20 * * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/jd_health_collect.js, tag=东东健康社区收集能量
 cron "3,5 0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/ddo_joy_reward.js, tag=宠汪汪积分兑换奖品
 
 # ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
