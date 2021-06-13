@@ -55,8 +55,6 @@ cron "12 */8 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Lo
 cron "42 */20 * * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/jd_health_collect.js, tag=东东健康社区收集能量
 cron "42 1-23/4 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/jd_joy.js, tag=宠汪汪
 cron "3,5 0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/ddo_joy_reward.js, tag=宠汪汪积分兑换奖品
-cron "33 12,21 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/jd_unsubscribe.js, tag=取关京东店铺商品
-cron "12 22 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/jd_get_share_code.js, enabled=false, tag=获取京东互助码
 
 # ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
 
