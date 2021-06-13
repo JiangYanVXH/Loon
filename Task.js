@@ -28,6 +28,7 @@ cron "12 22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd
 
 cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/adolf_superbox.js, tag=京东超级盒子（不更新）
 cron "32 10-19/3 1-18 6 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/adolf_star.js, tag=家电星推官（不更新）
+cron "35 6,13,19,21 1-20 6 *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js, tag=京享值PK
 cron "3,5 0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/ddo_joy_reward.js, tag=宠汪汪积分兑换奖品
 
 # ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
@@ -39,7 +40,6 @@ cron "58 6-23/2 1-18 6 *" script-path=https://raw.githubusercontent.com/yangting
 cron "8 1 1-18 6 *" script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/zy_618jc.js, tag=618竞猜
 
 # 京享值PK
-cron "35 6,13,19,21 1-20 6 *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js, tag=京享值PK
 
 # 京东抽奖机
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机
