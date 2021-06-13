@@ -32,7 +32,7 @@ cron "32 10-19/3 1-18 6 *" script-path=https://raw.githubusercontent.com/JiangYa
 cron "35 6,13,19,21 1-20 6 *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js, tag=京享值PK
 cron "3,5 0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/ddo_joy_reward.js, tag=宠汪汪积分兑换奖品
 
-cron "3,5 0 0-16/8 * * *" script-path=https://github.com/JiangYanVXH/Loon/edit/main/Task.js, tag=宠汪汪积分兑换奖品
+cron "3,5 0 0-16/8 * * *" script-path= https://raw.githubusercontent.com/hyzaw/scripts/main/backup/ddo_joy_reward.js, tag=宠汪汪积分兑换奖品
 
 
 # ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
