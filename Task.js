@@ -2,7 +2,7 @@ cron "58 6-23/2 1-20 6 *" script-path=https://raw.githubusercontent.com/JDHelloW
 cron "1 0 0-18/6 1-20 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_carnivalcity.js, tag=手机狂欢城（通用版）
 cron "4 10 1-18 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_mcxhd.js, tag=新潮品牌狂欢（通用版）
 cron "45 0-23/4 * 6,7 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_mohe.js, tag=5G超级盲盒（通用版）
-cron "10 2,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_star_shop.js, tag=明星小店（通用版）
+cron "10 2,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_star_shop.js, tag=明星小店/星店长（通用版）
 cron "17 8,10 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_syj.js, tag=赚京豆（通用版）
 cron "28 1 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_jin_tie.js, tag=领金贴（通用版）
 cron "44 9-23/8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_superMarket.js, tag=东东超市（通用版）
