@@ -26,35 +26,15 @@ cron "42 1-23/4 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorl
 cron "33 12,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_unsubscribe.js, tag=取关京东店铺商品
 cron "12 22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_get_share_code.js, enabled=false, tag=获取京东互助码
 
-
 cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/adolf_superbox.js, tag=京东超级盒子（不更新）
 cron "32 10-19/3 1-18 6 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/adolf_star.js, tag=家电星推官（不更新）
 cron "35 6,13,19,21 1-20 6 *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js, tag=京享值PK
-cron "3,5 0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/ddo_joy_reward.js, tag=宠汪汪积分兑换奖品
-
 cron "3,5 0 0-16/8 * * *" script-path= https://raw.githubusercontent.com/hyzaw/scripts/main/backup/ddo_joy_reward.js, tag=宠汪汪积分兑换奖品
-
-
-# ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-
-# 动物联萌
+cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机
 cron "58 6-23/2 1-18 6 *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js, tag=动物联萌
-
-# 618竞猜
 cron "8 1 1-18 6 *" script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/zy_618jc.js, tag=618竞猜
 
-# 京享值PK
-
-# 京东抽奖机
-cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机
-
-# 宠汪汪积分兑换奖品
-cron "3,5 0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/backup/ddo_joy_reward.js, enable=false, tag=宠汪汪积分兑换奖品
-
-# 半点京豆雨
 cron "8 30 16-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_half_redrain.js, enable=false, tag=半点京豆雨
-
-# 整点京豆雨
 cron "8 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_super_redrain.js, enable=false, tag=整点京豆雨
 
 # 获取京东互助码
