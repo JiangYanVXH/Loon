@@ -21,7 +21,7 @@ cron "38 0-17/6 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorl
 cron "12 7 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_bean_home.js, tag=领京豆额外奖励（通用版）
 cron "11 9 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_gold_creator.js, tag=金榜创造营（通用版）
 cron "12 */8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_health.js, tag=东东健康社区（通用版）
-cron "42 10 1-23/1 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_health_collect.js, tag=东东健康社区收集能量（通用版）
+cron "42 10 1-23/2 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_health_collect.js, tag=东东健康社区收集能量（通用版）
 cron "42 1-23/4 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_joy.js, tag=宠汪汪（通用版）
 cron "33 12,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_unsubscribe.js, tag=取关京东店铺商品
 cron "12 22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_get_share_code.js, enabled=false, tag=获取京东互助码
