@@ -1,5 +1,5 @@
 cron "58 6-23/2 1-20 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_zoo.js, enabled=false, tag=动物联萌（通用版）
-cron "1 0,50 0-18/6 1-20 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_carnivalcity.js, tag=手机狂欢城（通用版）
+cron "1 0 1,0-18/6 1-20 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_carnivalcity.js, tag=手机狂欢城（通用版）
 cron "4 10 1-18 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_mcxhd.js, tag=新潮品牌狂欢（通用版）
 cron "45 0-23/4 * 6,7 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_mohe.js, tag=5G超级盲盒（通用版）
 cron "10 2,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_star_shop.js, tag=明星小店/星店长（通用版）
