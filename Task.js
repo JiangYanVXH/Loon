@@ -1,3 +1,4 @@
+cron "58 11 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_api_test.js, tag=互助码环境测试（通用版）
 cron "58 6-23/2 1-20 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_zoo.js, enabled=false, tag=动物联萌（通用版）
 cron "1 0 1,0-18/6 1-20 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_carnivalcity.js, tag=手机狂欢城（通用版）
 cron "4 10 1-18 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_mcxhd.js, tag=新潮品牌狂欢（通用版）
