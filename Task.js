@@ -22,7 +22,7 @@ cron "12 7 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_
 cron "11 9 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_gold_creator.js, tag=金榜创造营（通用版）
 cron "12 */8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_health.js, tag=东东健康社区（通用版）
 cron "42 10 1-23/2 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_health_collect.js, tag=东东健康社区收集能量（通用版）
-cron "42 1-23/4 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_joy.js, tag=宠汪汪（通用版）
+cron "42 1-23/4 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_joy.js, enable=false, tag=宠汪汪（通用版）
 cron "33 12,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_unsubscribe.js, tag=取关京东店铺商品
 cron "12 22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_get_share_code.js, enabled=false, tag=获取京东互助码
 
@@ -32,7 +32,7 @@ cron "32 10-19/3 1-18 6 *" script-path=https://raw.githubusercontent.com/JiangYa
 cron "25 10 * * *" script-path=https://raw.githubusercontent.com/zooPanda/zoo/dev/zooElecsport.js, tag=东东电竞经理（Panda）
 
 cron "35 6,13,19,21 1-20 6 *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js, tag=京享值PK
-cron "3,5 0 0-16/8 * * *" script-path= https://raw.githubusercontent.com/hyzaw/scripts/main/backup/ddo_joy_reward.js, tag=宠汪汪积分兑换奖品
+cron "3,5 0 0-16/8 * * *" script-path= https://raw.githubusercontent.com/hyzaw/scripts/main/backup/ddo_joy_reward.js, enable=false, tag=宠汪汪积分兑换奖品
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机
 cron "58 6-23/2 1-18 6 *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js, tag=动物联萌
 cron "22 12 1-18 6 *" script-path=https://raw.githubusercontent.com/star261/jd/main/scripts/jd_zooMap.js, tag=动物联萌店铺任务
