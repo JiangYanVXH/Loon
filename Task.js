@@ -38,8 +38,7 @@ cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/Qua
 cron "58 6-23/2 1-18 6 *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js, tag=动物联萌
 cron "22 12 1-18 6 *" script-path=https://raw.githubusercontent.com/star261/jd/main/scripts/jd_zooMap.js, tag=动物联萌店铺任务
 cron "45 10 1-23/1 * * *" script-path=https://raw.githubusercontent.com/star261/jd/main/scripts/jd_zooCollect.js, tag=动物联萌收集金币
-
-cron "8 1 1-18 6 *" script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/zy_618jc.js, tag=618竞猜
+#cron "8 1 1-18 6 *" script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/zy_618jc.js, tag=618竞猜
 cron "8 30 16-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_half_redrain.js, enable=false, tag=半点京豆雨
 cron "8 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_super_redrain.js, enable=false, tag=整点京豆雨
 
