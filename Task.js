@@ -1,7 +1,4 @@
-cron "58 1 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_api_test.js, tag=互助码环境测试（通用版）
-cron "58 6-23/2 1-20 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_zoo.js, enabled=false, tag=动物联萌（通用版）
-#cron "1 0 1,0-18/6 1-20 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_carnivalcity.js, tag=手机狂欢城（通用版）
-#cron "4 10 1-18 6 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_mcxhd.js, tag=新潮品牌狂欢（通用版）
+cron "58 1,8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_api_test.js, tag=互助码环境测试（通用版）
 cron "45 0-23/4 * 6,7 *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_mohe.js, tag=5G超级盲盒（通用版）
 cron "10 2,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_star_shop.js, tag=明星小店/星店长（通用版）
 cron "17 8,10,13 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_syj.js, tag=赚京豆（通用版）
@@ -29,17 +26,11 @@ cron "12 22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd
 
 # >其他
 cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/adolf_superbox.js, tag=京东超级盒子（断更）
-#cron "32 10-19/3 1-18 6 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/adolf_star.js, tag=家电星推官（断更）
 cron "25 10 * * *" script-path=https://raw.githubusercontent.com/zooPanda/zoo/dev/zooElecsport.js, tag=东东电竞经理（Panda）
 cron "20 7 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_ddnc_farmpark.js, tag=东东农场之东东乐园
 cron "35 6,13,19,21 1-20 6 *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js, tag=京享值PK
 cron "3,5 0 0-16/8 * * *" script-path= https://raw.githubusercontent.com/hyzaw/scripts/main/backup/ddo_joy_reward.js, enable=false, tag=宠汪汪积分兑换奖品
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机
-
-#cron "58 6-23/2 1-18 6 *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js, tag=动物联萌
-#cron "22 12 1-18 6 *" script-path=https://raw.githubusercontent.com/star261/jd/main/scripts/jd_zooMap.js, tag=动物联萌店铺任务
-cron "45 10 1-23/1 * * *" script-path=https://raw.githubusercontent.com/star261/jd/main/scripts/jd_zooCollect.js, tag=动物联萌收集金币
-#cron "8 1 1-18 6 *" script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/zy_618jc.js, tag=618竞猜
 cron "8 30 16-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_half_redrain.js, enable=false, tag=半点京豆雨
 cron "8 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_super_redrain.js, enable=false, tag=整点京豆雨
 
