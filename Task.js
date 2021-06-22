@@ -29,7 +29,7 @@ cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/JiangYanVXH
 cron "25 10 * * *" script-path=https://raw.githubusercontent.com/zooPanda/zoo/dev/zooElecsport.js, tag=东东电竞经理（Panda）
 cron "20 7 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_ddnc_farmpark.js, tag=东东农场之东东乐园
 #cron "35 6,13,19,21 1-20 6 *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js, tag=京享值PK
-cron "35 0,6,13,19,21 * 6,7 *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js,tag=京享值PK
+cron "35 6,13,19,21 * 6,7 *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js,tag=京享值PK（7.21）
 
 cron "3,5 0 0-16/8 * * *" script-path= https://raw.githubusercontent.com/hyzaw/scripts/main/backup/ddo_joy_reward.js, enable=false, tag=宠汪汪积分兑换奖品
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机
