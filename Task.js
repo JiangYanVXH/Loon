@@ -5,7 +5,8 @@ cron "17 8,10,13 * * *" script-path=https://raw.githubusercontent.com/JDHelloWor
 cron "28 1 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_jin_tie.js, tag=领金贴（通用版）
 cron "44 9-23/8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_superMarket.js, tag=东东超市（通用版）
 cron "28 12,22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_small_home.js, tag=东东小窝（通用版）
-cron "20,25,35 0 0 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_shop.js, tag=进店领豆（通用版）
+cron "30,50 0,1 0 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_shop.js, tag=进店领豆（通用版）
+
 cron "20 8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_sgmh.js, tag=闪购盲盒（通用版）
 cron "1 7-21/2 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_plantBean.js, tag=种豆得豆（通用版）
 cron "15 6-18/6 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_pet.js, tag=东东萌宠（通用版）
