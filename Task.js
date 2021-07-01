@@ -27,6 +27,7 @@ cron "33 12,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld
 cron "12 22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_get_share_code.js, enabled=false, tag=获取京东互助码
 
 # >其他
+cron “55 9 * * *” script-path=https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_europeancup.js, tag=欧洲狂欢杯（7.20）
 cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/adolf_superbox.js, tag=京东超级盒子（断更）
 cron "25 10 * * *" script-path=https://raw.githubusercontent.com/zooPanda/zoo/dev/zooElecsport.js, tag=东东电竞经理（Panda）
 cron "20 7 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_ddnc_farmpark.js, tag=东东农场之东东乐园
