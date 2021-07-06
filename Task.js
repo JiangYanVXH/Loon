@@ -6,7 +6,6 @@ cron "28 1 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_
 cron "44 9-23/8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_superMarket.js, tag=东东超市（通用版）
 cron "28 12,22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_small_home.js, tag=东东小窝（通用版）
 cron "30,50 0,1 0 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_shop.js, tag=进店领豆（通用版）
-
 cron "20 8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_sgmh.js, tag=闪购盲盒（通用版）
 cron "1 7-21/2 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_plantBean.js, tag=种豆得豆（通用版）
 cron "15 6-18/6 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_pet.js, tag=东东萌宠（通用版）
@@ -32,7 +31,7 @@ cron "12 22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd
 #cron "25 10 * * *" script-path=https://raw.githubusercontent.com/zooPanda/zoo/dev/zooElecsport.js, tag=东东电竞经理（Panda）
 cron "20 7 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_ddnc_farmpark.js, tag=东东农场之东东乐园
 #cron "35 6,13,19,21 1-20 6 *" script-path=https://cdn.jsdelivr.net/gh/qqsdff/script@main/jd/jxzpk.js, tag=京享值PK（史蒂夫）
-cron "35 6,13,19,21 1-21 7 *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js,tag=京享值PK（7.21）
+#cron "35 6,13,19,21 1-21 7 *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js,tag=京享值PK（7.21）
 #cron "3,5 0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/backup/ddo_joy_reward.js, enable=false, tag=宠汪汪积分兑换奖品
 cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机
 cron "8 30 16-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_half_redrain.js, enable=false, tag=半点京豆雨
