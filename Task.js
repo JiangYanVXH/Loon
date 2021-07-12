@@ -15,7 +15,7 @@ cron "51 8,10 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/
 cron "14 10 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_ms.js, tag=秒秒币（通用版）
 cron "36 6-19/6 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_fruit.js, tag=东东农场（通用版）
 cron "6 3,13 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_club_lottery.js, tag=摇京豆（通用版）
-cron "38 0-17/6 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_cash.js, tag=签到领现金（通用版）
+cron "38 0-22/5 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_cash.js, tag=签到领现金（通用版）
 cron "12 7 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_bean_home.js, tag=领京豆额外奖励（通用版）
 cron "11 9,11 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_gold_creator.js, tag=金榜创造营（通用版）
 
@@ -29,7 +29,7 @@ cron "12 22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd
 #cron "55 9,20 * * *" script-path= https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_europeancup.js, tag=欧洲狂欢杯（7.20）
 #cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/adolf_superbox.js, tag=京东超级盒子（断更）
 #cron "25 10 * * *" script-path=https://raw.githubusercontent.com/zooPanda/zoo/dev/zooElecsport.js, tag=东东电竞经理（Panda）
-cron "20 7 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_ddnc_farmpark.js, tag=东东农场之东东乐园
+#cron "20 7 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_ddnc_farmpark.js, tag=东东农场之东东乐园
 #cron "35 6,13,19,21 1-20 6 *" script-path=https://cdn.jsdelivr.net/gh/qqsdff/script@main/jd/jxzpk.js, tag=京享值PK（史蒂夫）
 #cron "35 6,13,19,21 1-21 7 *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/ddo_pk.js,tag=京享值PK（7.21）
 #cron "3,5 0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/hyzaw/scripts/main/backup/ddo_joy_reward.js, enable=false, tag=宠汪汪积分兑换奖品
