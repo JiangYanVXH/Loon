@@ -21,10 +21,6 @@ cron "33 12,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld
 cron "12 22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_get_share_code.js, enabled=false, tag=获取京东互助码
 
 # >其他
-#cron "15 9,20 * 5,6 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Loon/main/Script/adolf_superbox.js, tag=京东超级盒子（断更）
-cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机
-cron "8 30 16-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_half_redrain.js, enable=false, tag=半点京豆雨
-cron "8 0 8-23/1 * * *" script-path=https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_super_redrain.js, enable=false, tag=整点京豆雨
 cron "0 0-18/6 * * *" script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_carnivalcity.js, tag=手机狂欢城
 cron "24 7,10 * * *" script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js, tag=升级赚京豆
 
