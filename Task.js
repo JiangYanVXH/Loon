@@ -23,6 +23,7 @@ cron "12 22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd
 # >其他
 cron "0 0-18/6 * * *" script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_carnivalcity.js, tag=手机狂欢城
 cron "24 7,10 * * *" script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js, tag=升级赚京豆
+cron "15 3,9 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_ddworld.js,tag=东东世界
 
 # >机场签到
 # boxjs订阅：https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/evilbutcher.boxjs.json
