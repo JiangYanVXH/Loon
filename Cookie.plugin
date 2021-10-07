@@ -25,11 +25,12 @@ http-request https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fs
 
 # > 叮咚买菜
 # 叮咚买菜（maicai.api.ddxq.mobi）我的 - 积分
-# 叮咚农场（maicai.api.ddxq.mobi）我的 - 叮咚农场
-http-request ^https:\/\/maicai\.api\.ddxq\.mobi\/user\/checkLogin script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,tag=叮咚农场Cookie
+# 叮咚农场（maicai.api.ddxq.mobi）我的 - 叮咚农场/果园
+http-request ^https:\/\/farm\.api\.ddxq\.mobi\/api\/v2\/props\/feed script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/ddgy.js, tag=叮咚果园
+http-request ^https:\/\/maicai\.api\.ddxq\.mobi\/user\/checkLogin script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js, tag=叮咚农场Cookie
 http-request ^https:\/\/maicai.api.ddxq.mobi\/point\/home script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.cookie.js, tag=叮咚买菜Cookie
-http-request ^https:\/\/maicai\.api\.ddxq\.mobi\/point\/home script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.cookie.js,tag=叮咚签到Cookie
+http-request ^https:\/\/maicai\.api\.ddxq\.mobi\/point\/home script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.cookie.js, tag=叮咚签到Cookie
 
 [mitm]
 # 获取 Cookie 后, 请禁用 Cookie 脚本并移除主机名，以免产生不必要的MITM。
-hostname = h5.ele.me, maicai.api.ddxq.mobi, m.weibo.cn, api.m.jd.com, me-api.jd.com, wq.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com, draw.jdfcloud.com, daojia.jd.com
+hostname = h5.ele.me, maicai.api.ddxq.mobi, farm.api.ddxq.mobi, m.weibo.cn, api.m.jd.com, me-api.jd.com, wq.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com, draw.jdfcloud.com, daojia.jd.com
