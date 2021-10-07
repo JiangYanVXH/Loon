@@ -31,5 +31,6 @@ cron "55 6,9 * 10 *" script-path=https://raw.githubusercontent.com/shufflewzc/fa
 cron "32 21 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
 
 # >叮咚买菜
-cron "28 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,tag=叮咚买菜
+cron "28 8,17 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,tag=叮咚买菜
 cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,tag=叮咚养鱼
+cron "22 8,17 * * *" script-path= https://raw.githubusercontent.com/iepngs/Script/master/dingdong/ddgy.js,tag=叮咚果园
