@@ -21,7 +21,8 @@ cron "33 12,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld
 cron "12 22 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_get_share_code.js, enabled=false, tag=获取京东互助码
 
 # >其他
-cron "0 0-18/6 * * *" script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_carnivalcity.js, tag=手机狂欢城
+cron "50 0-18/6 * * *" script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_carnivalcity.js, tag=手机狂欢城
+cron "50 0-18/6 * * *" script-path=https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_carnivalcity.js , tag=手机狂欢城2
 cron "24 7,10 * * *" script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js, tag=升级赚京豆
 cron "15 3,9 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_ddworld.js,tag=东东世界
 cron "55 6,9 * 10 *" script-path=https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_nzmh.js, tag=女装盲盒
