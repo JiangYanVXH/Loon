@@ -10,7 +10,8 @@ cron "15 6-18/6 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorl
 cron "22 0 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_jdzz.js, tag=京东赚赚（通用版）
 cron "26 1 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_moneyTree.js, tag=京东摇钱树（通用版）
 cron "51 8,10 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_redPacket.js, tag=全民开红包（通用版）
-cron "14 10 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_ms.js, tag=秒秒币（通用版）
+cron "14 10,8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_ms.js, tag=秒秒币（通用版）
+
 cron "36 6-19/6 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_fruit.js, tag=东东农场（通用版）
 cron "6 3,13 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_club_lottery.js, tag=摇京豆（通用版）
 cron "38 0-22/5 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_cash.js, tag=签到领现金（通用版）
