@@ -1,5 +1,20 @@
+# Book
+DOMAIN-KEYWORD,1lib.domains
+DOMAIN-SUFFIX,zlibcdn.com
+DOMAIN-KEYWORD,cn1lib
+DOMAIN-SUFFIX,1lib.org
+DOMAIN-SUFFIX,2lib.org
+DOMAIN-SUFFIX,z-lib.org
+DOMAIN-SUFFIX,hk1lib.org
+DOMAIN-SUFFIX,cn1lib.org
+DOMAIN-SUFFIX,1lib.domains
+DOMAIN,dl101.zlibcdn.com
+DOMAIN,cn.epubee.com
+DOMAIN-SUFFIX,epubee.com
+
 # MyList
 DOMAIN-SUFFIX,ccsub.cc
+DOMAIN-SUFFIX,c-cloud.xyz
 DOMAIN-SUFFIX,btlibrary.me
 DOMAIN-SUFFIX,cccat.io
 DOMAIN-SUFFIX,cloudcone.com
@@ -9,9 +24,14 @@ DOMAIN-SUFFIX,limbopro.xyz
 DOMAIN-SUFFIX,duyaoss.com
 DOMAIN-SUFFIX,bit.ly
 DOMAIN-SUFFIX,ift.tt
-DOMAIN-SUFFIX,1lib.org
-DOMAIN-SUFFIX,2lib.org
-DOMAIN-SUFFIX,hk1lib.org
+DOMAIN-SUFFIX,pin.it
+DOMAIN-SUFFIX,savieo.com
+DOMAIN-SUFFIX,luckydesigner.space
+DOMAIN-SUFFIX,xteko.com
+DOMAIN-SUFFIX,rfa.org
+DOMAIN-SUFFIX,nyti.ms
+DOMAIN-SUFFIX,savieo.com
+DOMAIN-SUFFIX,bbc.in
 DOMAIN-SUFFIX,dubox.com
 DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,garena.com
