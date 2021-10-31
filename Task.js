@@ -14,7 +14,7 @@ cron "14 10,8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/
 
 cron "36 6-19/6 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_fruit.js, tag=东东农场（通用版）
 cron "6 3,13 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_club_lottery.js, tag=摇京豆（通用版）
-cron "38 0-22/5 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_cash.js, tag=签到领现金（通用版）
+cron "38 0-22/5 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_cash.js, enabled=false, tag=签到领现金（通用版）
 cron "12 7 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_bean_home.js, tag=领京豆额外奖励（通用版）
 cron "12 */8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_health.js, enabled=false, tag=东东健康社区（通用版）
 cron "42 10 1-23/3 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_health_collect.js, enabled=false, tag=东东健康社区收集能量（通用版）
