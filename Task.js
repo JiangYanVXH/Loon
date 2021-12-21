@@ -1,4 +1,4 @@
-cron "58 1,8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_api_test.js, enabled=false, tag=互助码环境测试（通用版）
+#cron "58 1,8 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_api_test.js, enabled=false, tag=互助码环境测试（通用版）
 #cron "10 2,21 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_star_shop.js, enabled=false, tag=明星小店/星店长（通用版）
 cron "17 8,10,13 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_syj.js, enabled=false, tag=赚京豆（通用版）
 cron "28 1 * * *" script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_jin_tie.js, tag=领金贴（通用版）
