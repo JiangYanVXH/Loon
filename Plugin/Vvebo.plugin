@@ -1,0 +1,6 @@
+[URL Rewrite]
+https?:\/\/m\.weibo\.cn\/(?!ttarticle).+\/)([a-z0-9A-Z]+)(?=\?|) 302 vvebo://status?id=$2
+enable = true
+
+[MITM]
+m.weibo.cn
