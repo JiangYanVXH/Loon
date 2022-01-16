@@ -3,4 +3,4 @@
 enable = true
 
 [MITM]
-m.weibo.cn
+hostname = m.weibo.cn
