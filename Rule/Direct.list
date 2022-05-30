@@ -323,11 +323,19 @@ IP-CIDR,101.199.196.0/22,no-resolve
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 
 # MyList
-USER-AGENT,*Due*,DIRECT
-USER-AGENT,钉钉*,DIRECT
-USER-AGENT,坚果云*,DIRECT
-USER-AGENT,*AppRaven*,DIRECT
-USER-AGENT,ListenBook*,DIRECT
+USER-AGENT,*Due*
+USER-AGENT,钉钉*
+USER-AGENT,坚果云*
+USER-AGENT,ListenBook*
+USER-AGENT,*AppRaven*
+DOMAIN-SUFFIX,appraven.net
+DOMAIN-SUFFIX,iamtxt.com
+DOMAIN-SUFFIX,www.cordcloud.one
+DOMAIN-SUFFIX,menggy.com
+DOMAIN-SUFFIX,un.org
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,sao.fm
+DOMAIN-SUFFIX,note.ms
 
 # CN域名直连
 DOMAIN-SUFFIX,cn
