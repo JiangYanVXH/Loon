@@ -1,6 +1,20 @@
 # https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Liby.list
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 
+DOMAIN-SUFFIX,bounceexchange.com
+DOMAIN-SUFFIX,nighttstand.com
+DOMAIN-SUFFIX,consensu.org
+DOMAIN-SUFFIX,nzz.ch
+DOMAIN-SUFFIX,adnz.co
+DOMAIN-SUFFIX,pubmine.com
+DOMAIN-KEYWORD,gravatar.com
+DOMAIN-SUFFIX,nr-data.net
+DOMAIN-SUFFIX,cxense.com
+DOMAIN-SUFFIX,qualtrics.com
+DOMAIN-SUFFIX,springernature.com
+DOMAIN-SUFFIX,smyfinancial.com
+DOMAIN-SUFFIX,hwcdn.net
+DOMAIN-SUFFIX,firstory.me
 DOMAIN,a.wkanx.com
 DOMAIN,abema-adx.ameba.jp
 DOMAIN,ad-analysis.pconline.com.cn
