@@ -337,6 +337,16 @@ DOMAIN-SUFFIX,aliyuncs.com
 DOMAIN-SUFFIX,sao.fm
 DOMAIN-SUFFIX,note.ms
 DOMAIN-SUFFIX,macromicro.me
+DOMAIN-SUFFIX,note.ms
+DOMAIN-SUFFIX,techpolicy.press
+DOMAIN-SUFFIX,cell.com
+DOMAIN-SUFFIX,pnas.scienceconnect.io
+DOMAIN-SUFFIX,pnas.org
+DOMAIN-SUFFIX,sciencemag.org
+DOMAIN-SUFFIX,api.sciencemag.org
+DOMAIN-SUFFIX,shihang.org
+DOMAIN-SUFFIX,nature.com
+DOMAIN-SUFFIX,science.org
 
 # CN域名直连
 DOMAIN-SUFFIX,cn
