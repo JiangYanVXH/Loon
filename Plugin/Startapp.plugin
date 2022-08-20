@@ -1,4 +1,4 @@
-[Script]
+[URL Rewrite]
 
 # > 叮咚买菜
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ url reject
