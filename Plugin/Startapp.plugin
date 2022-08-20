@@ -1,0 +1,10 @@
+[Script]
+
+# > 叮咚买菜
+^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ url reject
+
+# > 丰巢
+^https?:\/\/consumer\.fcbox\.com\/v\d\/ad\/ url reject
+
+[MITM]
+hostname = maicai.api.ddxq.mobi,consumer.fcbox.com
